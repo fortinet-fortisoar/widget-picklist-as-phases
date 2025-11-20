@@ -41,6 +41,9 @@ The following screenshot shows the **Picklist as Phases** in action with the sel
 
 ![Incident detailed view with the widget highlighted](./res/incident_view_widget_highlighted.png)
 
+> [!NOTE]
+> To add or remove a phase from being displayed, refer to the section [Add or Remove Picklist Phases](./setup.md#add-or-remove-picklist-phases) under *Setup*.
+
 # Next Steps
 
 | [Installation](./setup.md#installation) | [Configuration](./setup.md#configuration) |

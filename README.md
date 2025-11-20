@@ -4,6 +4,7 @@
 - **Certified**: Yes
 - **Publisher**: Fortinet
 - **Compatible Version**: 7.4.3 or Later
+- [Release Notes](./widget/release_notes.md)
 
 # Overview
 
