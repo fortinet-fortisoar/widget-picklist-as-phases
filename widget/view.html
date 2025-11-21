@@ -13,7 +13,7 @@
   <div class="list-unstyled padding-20 margin-top-negative-20" style="white-space: nowrap">
     <div
       data-ng-repeat="item in picklistObject | filter:{'hidden': '!true'}"
-      ng-class="{ 'custom-div': true, 'active': item.itemValue === pickListValue, 'inactive': (item.itemValue !== pickListValue || pickListValue === ''), 'editable': !config.readOnly, 'light': currentTheme ==='light', 'pointer-event-none': item.disabled}"
+      ng-class="{ 'custom-div': true, 'active': item.itemValue === pickListValue, 'inactive': (item.itemValue !== pickListValue || pickListValue === ''), 'editable': !config.readOnly, 'light': currentTheme ==='light', 'pointer-event-none': item.disabled, 'opacity-04': item.disabled}"
       ng-click="!config.readOnly ? handleClick(item) : null"
       style="display: inline-flex; align-items: center; padding: 5px"
     >
